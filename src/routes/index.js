@@ -7,21 +7,21 @@ router.get('/', function (req, res, next) {
     });
 });
 
-router.post('/', function (req, res, next) {
+router.post('/user', function (req, res, next) {
     res.status(200).send({
         title: "POST",
         
     });
 });
 
-router.put('/', function (req, res, next) {
+router.put('/user', function (req, res, next) {
     res.status(200).send({
         title: "PUT",
         
     });
 });
 
-router.delete('/', function (req, res, next) {
+router.delete('/user', function (req, res, next) {
     res.status(200).send({
         title: "DELETE",
         
